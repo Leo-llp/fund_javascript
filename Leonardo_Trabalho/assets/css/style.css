@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: arial, sans-serif;
+    background-image: url('/assets/modulaçãoBackGrond.png');
+    background-size: cover;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment:fixed;
+}
+
+header {
+    background-color: #1a222a;
+    margin-top: 3px;
+    border-radius: 7px;
+    width: 90vw;
+    margin: auto;
+}
+
+main {
+    background-color: #485c77; 
+    width: 90vw;
+    margin: auto;
+    border-radius: 7px 7px 0px 0px;
+    margin-top: 7px;
+    padding: 2em;
+}
+
+main > img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    transform: scale(1.0);
+    transform: scaleX(1.5);
+}
+
+article > h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+article > p {
+    text-align: justify;
+}
+ 
+article > img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    transform: scale(1.0);
+    transform: scaleX(1.5);
+}
+
+p {
+    font-size: 16px;
+    line-height: 2.0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color:  #485c77;
+    text-align: center;
+    border-radius: 0px 0px 7px 7px;
+    width: 90vw;
+    padding: 7px;
+    margin: auto;
+}
+
+header > h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 3px;
+    text-shadow: #676361 1px 1px 10px;
+    margin-top: 17px;
+}

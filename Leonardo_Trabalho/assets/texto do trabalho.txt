@@ -1,0 +1,32 @@
+Clean Code
+O que é: Clean Code, ou "Código Limpo", é um conceito introduzido por Robert C. Martin (também conhecido como Uncle Bob). Refere-se a práticas e princípios de programação que resultam em código que é legível, compreensível e fácil de manter. A ideia é escrever código que outros (ou você mesmo, no futuro) possam entender rapidamente.
+
+Como funciona:
+
+Nomes Significativos: Use nomes claros e descritivos para variáveis, funções e classes. Isso ajuda a entender o propósito do código sem precisar de muitos comentários.
+
+Funções Pequenas: Funções devem ser curtas e realizar apenas uma tarefa. Isso facilita a leitura e a reutilização.
+
+Evitar Código Duplicado: Sempre que possível, reutilize código para evitar redundâncias. Isso facilita a manutenção, já que mudanças só precisam ser feitas em um lugar.
+
+Comentários Úteis: Comentários devem explicar "por que" algo foi feito, não "o que" foi feito. O código deve ser claro o suficiente para que o "o que" seja evidente.
+
+Tratamento de Erros: Trate erros de maneira consistente e clara, evitando o uso de códigos de erro obscuros.
+
+Modulação
+O que é: Modulação é uma abordagem de design que divide um sistema em partes menores e mais gerenciáveis, conhecidas como módulos. Cada módulo tem uma responsabilidade específica, o que facilita o desenvolvimento, teste e manutenção.
+
+Como funciona:
+
+Separação de Responsabilidades: Cada módulo deve ter uma única responsabilidade, seguindo o princípio da responsabilidade única (SRP). Isso melhora a clareza e a manutenção.
+
+Interfaces Claras: Os módulos devem se comunicar por meio de interfaces bem definidas. Isso ajuda a garantir que mudanças em um módulo não afetem outros de maneira inesperada.
+
+Encapsulamento: Módulos devem esconder sua implementação interna. Isso reduz o acoplamento entre diferentes partes do sistema, facilitando alterações.
+
+Reutilização: Módulos bem projetados podem ser reutilizados em diferentes partes do sistema ou até em outros projetos.
+
+Testabilidade: Com módulos independentes, é mais fácil testar partes do código de forma isolada, o que aumenta a confiabilidade do sistema.
+
+Conclusão
+Clean Code e modulação são fundamentais para criar software de alta qualidade. Juntos, eles promovem um código que é fácil de entender, manter e escalar. Adotar esses princípios não apenas melhora a qualidade do código, mas também a produtividade da equipe de desenvolvimento.
